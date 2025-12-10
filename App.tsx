@@ -3,7 +3,7 @@ import IntroScreen from './components/IntroScreen';
 import MusicPlayer from './components/MusicPlayer';
 import ChatTerminal from './components/ChatTerminal';
 import { GameState } from './types';
-import foto from './dist/assets/foto guwa.jpg';
+import foto from './assets/foto-guwa.jpg';
 
 const App: React.FC = () => {
   const [gameState, setGameState] = useState<GameState>(GameState.INTRO);
