@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import music from '../dist/assets/Six Days (Remix) [W3_c4-4OMbM].mp3';
+import music from '../assets/Six Days (Remix) [W3_c4-4OMbM].mp3';
 
 interface MusicPlayerProps {
   autoStart?: boolean;
